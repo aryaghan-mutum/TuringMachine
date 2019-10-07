@@ -1,13 +1,14 @@
-package com.turing.machine.TuringMachine.Entscheidungsproblem;
+package com.turing.machine.turingmachine.Entscheidungsproblem;
 
-import static com.turing.machine.TuringMachine.config.Constants.N;
-import static com.turing.machine.TuringMachine.config.Constants.ONE;
-import static com.turing.machine.TuringMachine.config.Constants.ZERO;
+import static com.turing.machine.turingmachine.config.Constants.N;
+import static com.turing.machine.turingmachine.config.Constants.ONE;
+import static com.turing.machine.turingmachine.config.Constants.ZERO;
 import static java.lang.System.out;
 
 public class BinaryDigits {
     
-    public static void printBinaryDigits() {
+    static public void
+    printBinaryDigits() {
         
         out.println("Print Binary Digits:");
         out.println("-----------------------------");

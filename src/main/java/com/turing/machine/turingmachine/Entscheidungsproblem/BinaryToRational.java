@@ -1,14 +1,14 @@
-package com.turing.machine.TuringMachine.Entscheidungsproblem;
+package com.turing.machine.turingmachine.Entscheidungsproblem;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.turing.machine.TuringMachine.config.Constants.DOT;
-import static com.turing.machine.TuringMachine.config.Constants.N;
-import static com.turing.machine.TuringMachine.config.Constants.ONE;
-import static com.turing.machine.TuringMachine.config.Constants.ZERO;
-import static com.turing.machine.TuringMachine.turinghelper.TuringHelper.addDotToTheStart;
-import static com.turing.machine.TuringMachine.turinghelper.TuringHelper.convertDecimalToFraction;
+import static com.turing.machine.turingmachine.config.Constants.DOT;
+import static com.turing.machine.turingmachine.config.Constants.N;
+import static com.turing.machine.turingmachine.config.Constants.ONE;
+import static com.turing.machine.turingmachine.config.Constants.ZERO;
+import static com.turing.machine.turingmachine.turinghelper.TuringHelper.addDotToTheStart;
+import static com.turing.machine.turingmachine.turinghelper.TuringHelper.convertDecimalToFraction;
 import static java.lang.Double.parseDouble;
 import static java.lang.String.format;
 import static java.lang.System.out;

@@ -1,4 +1,4 @@
-package com.turing.machine.TuringMachine;
+package com.turing.machine.turingmachine;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

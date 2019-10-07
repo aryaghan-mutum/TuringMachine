@@ -1,11 +1,12 @@
-package com.turing.machine.TuringMachine.turinghelper;
+package com.turing.machine.turingmachine.turinghelper;
 
 import static java.lang.Math.abs;
 import static java.lang.Math.floor;
 
 public class TuringHelper {
     
-    public static String convertDecimalToFraction(double x) {
+    static public String
+    convertDecimalToFraction(double x) {
         
         if (x < 0) {
             return "-" + convertDecimalToFraction(-x);
@@ -31,7 +32,8 @@ public class TuringHelper {
         return h1 + "/" + k1;
     }
     
-    public static String addDotToTheStart(String dot, String binaryNum) {
+    static public String
+    addDotToTheStart(String dot, String binaryNum) {
         binaryNum = dot + binaryNum;
         return binaryNum;
     }
