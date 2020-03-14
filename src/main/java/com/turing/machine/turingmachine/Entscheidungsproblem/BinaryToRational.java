@@ -2,6 +2,7 @@ package com.turing.machine.turingmachine.Entscheidungsproblem;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.IntStream;
 
 import static com.turing.machine.turingmachine.config.Constants.DOT;
 import static com.turing.machine.turingmachine.config.Constants.N;
@@ -16,13 +17,13 @@ import static java.lang.System.out;
 public class BinaryToRational {
     
     public static void convertBinaryToRationalNumbersWithZeroDigitInTheStart(List<String> binaryNumList) {
-    
+        
         out.println();
         
-        for (int i = 0; i < N; i++) {
+        IntStream.range(0, N).forEach(b -> {
             binaryNumList.add(ZERO);
             binaryNumList.add(ONE);
-        }
+        });
         
         String binaryNum = "";
         for (String n : binaryNumList) {
@@ -37,20 +38,20 @@ public class BinaryToRational {
     }
     
     public static void convertBinaryToRationalNumbersWithOneDigitInTheStart(List<String> binaryNumList) {
-    
+        
         out.println();
         
         List<String> bList = new ArrayList<>();
         
         String binaryNum = "";
+      
         for (String n : binaryNumList) {
             
-            if(n.equals("0")) {
+            if (n.equals("0")) {
                 n = ONE;
                 binaryNum = binaryNum + n;
                 bList.add(n);
-            }
-            else if (n.equals("1")) {
+            } else if (n.equals("1")) {
                 n = ZERO;
                 binaryNum = binaryNum + n;
                 bList.add(n);
